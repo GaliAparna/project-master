@@ -12,6 +12,7 @@ import { FurnitureComponent } from './furniture/furniture.component';
 import { SubMenComponent } from './sub-men/sub-men.component';
 import { SubWomenComponent } from './sub-women/sub-women.component';
 import { SubKidComponent } from './sub-kid/sub-kid.component';
+import { CartComponent } from './cart/cart.component';
 const routes: Routes = [
   {path:'login',component:LoginComponent},
   {path:'register',component:RegisterComponent},
@@ -25,6 +26,8 @@ const routes: Routes = [
   {path:'sm',component:SubMenComponent},
   {path:'sw',component:SubWomenComponent},
   {path:'sk',component:SubKidComponent},
+  {path:'cart',component:CartComponent}
+ 
 ];
 
 @NgModule({

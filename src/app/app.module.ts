@@ -15,6 +15,8 @@ import { FurnitureComponent } from './furniture/furniture.component';
 import { SubMenComponent } from './sub-men/sub-men.component';
 import { SubWomenComponent } from './sub-women/sub-women.component';
 import { SubKidComponent } from './sub-kid/sub-kid.component';
+import { CartComponent } from './cart/cart.component';
+
 
 
 @NgModule({
@@ -31,7 +33,9 @@ import { SubKidComponent } from './sub-kid/sub-kid.component';
     FurnitureComponent,
     SubMenComponent,
     SubWomenComponent,
-    SubKidComponent
+    SubKidComponent,
+    CartComponent,
+  
     
   ],
   imports: [
